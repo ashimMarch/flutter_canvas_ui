@@ -20,6 +20,11 @@ import 'package:my_canvas/canvas/path/_023_draw_image.dart';
 import 'package:my_canvas/canvas/path/_024_draw_shadow_method.dart';
 import 'package:my_canvas/canvas/path/_025_draw_paragraph.dart';
 import 'package:my_canvas/canvas/path/_026_draw_atlas.dart';
+import 'package:my_canvas/canvas/path/_027_clip_layers.dart';
+import 'package:my_canvas/canvas/path/_028_place_img_in_the_text.dart';
+import 'package:my_canvas/canvas/path/_029_gravity_simulation.dart';
+import 'package:my_canvas/canvas/path/_031_save_and_restore.dart';
+import 'package:my_canvas/canvas/path/_030_friction_simulation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -71,7 +76,12 @@ class MyScafold extends StatelessWidget {
         // child: DrawImageInCanvas(),
         // child: DrawShadowInCustomPaint(),
         // child: DrawParagraphInCustomPaint(),
-        child: DrawAtlasInCustomPaint(),
+        // child: DrawAtlasInCustomPaint(),
+        // child: ClipLayersScreen(),
+        // child: PLaceImgInsideText(),
+        // child: GravitySimulationScreen(),
+        // child: FrictionSimulationScreen(),
+        child: SaveAndRestoreCanvasScreen(),
       ),
     );
   }
